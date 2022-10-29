@@ -69,6 +69,21 @@ Additional Resources can be found below:
 - [A Quick Markdown Tutorial](https://helloacm.com/markdown-markup-language-quick-tutorial/)
 - [_Modern Technical Writing_](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) by Andrew Etter
 - More on [Jekyll themes](https://jekyllrb.com/)
+
+## FAQ
+
+#### **Q: Why is Markdown better than a word processor?**
+A: Markdown is better in the sense that it is very easy to write 
+(the syntax is very easy to learn) compared to HTML and other markup languages. 
+It is also advantageous because word processers could create ambiguity when transferring
+between different machines, whereas markdown will not. 
+
+
+#### **Q: Why is my resume not showing up?**
+A: You can check if the "index.html" is in your **home repository**, and open it on a local server to check if
+it is up to date with your "index.markdowm". Also look at the **Environments** tab to see if the website is active, 
+if it is not, you might want to check if you connect to Github Pages correctly. Another short tutorial could be found
+[here](https://pages.github.com/).
 ## Authors
 
 - Chen, Meixuan
