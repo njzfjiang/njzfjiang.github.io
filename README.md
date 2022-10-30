@@ -20,15 +20,17 @@ Write your Resume using markdown. The result file should end in
 Once your Resume is ready to go, Install [Jekyll](https://jekyllrb.com/docs/) 
 following the guide provided on the website.
 - Jekyll is an easy-to-use static site generator that we are using to host our resume.
+- Static websites is the way to go for Resumes and most technical writing if you want to get it online, because it is relatively simple to use(no back-end or regular maintainance required).
 
 ### Step 3: Convert the Resume into a local website
+After you had successfully created a resume, use Jekyll to convert it into a static website. Follow the steps below:
 1. Once you are all set up with Jekyll (you could use ```jekyll -v``` to check the version of jekyll), Open the **Command line Terminal** (i.e. Command Prompt for Windows) on your specific operating system.
 
-2. Enter ```cd directoryAddress``` to go to a directory where you want to store your static site for the Resume.
+2. Enter ```cd directoryAddress``` to go to the chosen directory that you want to store your static website with.
 
 3. Enter ```jekyll new websiteName``` to create a new Jekyll website, replace _**websiteName**_ with the directory name you want.
 
-4. Open the directory you just created, find the file named "index.markdown", modify it so it contains the contents of your Resume.
+4. Open the directory you just created, find the file named "index.markdown", modify it so it contains the contents of your Resume, if you have experience with YAML, you can modify the front matter at the top section of the file to customize your resume.
 
 5. Find the file named "_config.yml", modify it so it contains your information. You can change the **theme** of the website to customize the layout and format of your website. See [More Resources](#more-resources) for explaination on jekyll themes.
 
@@ -37,7 +39,7 @@ following the guide provided on the website.
 7. Enter ```bundle exec jekyll serve```, and now your website is avaliable on a local server. You can open "index.html" in the "_site" directory to preview your website on any browser. 
 
 ### Step 4: Host your website on Github pages
-Now you have a local website up and working, you can follow the instructions below to connect your website to Github Pages. 
+Now you have a local website up and working, you can follow the instructions below to connect your website to Github Pages. Using Github Pages ensures that you have version control of the website(it is all built in with Gibhub) and a easy work around if you don't have experience with web development.
 1. Register for [Github](https://github.com/) if you do not have an Account.
 
 2. From the Github homepage, click **Create a new repository**, and create a public repository named _username.github.io_, replace **username** with your own. You can leave everything else as default.
@@ -63,6 +65,8 @@ Now you have a local website up and working, you can follow the instructions bel
 11. Enter ```git push -u origin main```
 
 12. Now you should be able to see your Resume hosted on Gibhub pages by entering _**username.github.io**_ into any web browser. You can check the status(active or not) of the website at the bottom right corner of the repository under the **Environments** tab.
+## Step 5 
+And you are done!!
 ## Demo
 
 Here is a Resume Example 
