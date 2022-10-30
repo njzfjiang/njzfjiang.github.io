@@ -69,7 +69,8 @@ Now you have a local website up and working, you can follow the instructions bel
 And you are done!!
 ## Demo
 
-Here is a Resume Example 
+Here is a really simple Resume Example:
+![Demo Gif](DemoResume.gif)
 
 ## More Resources
 Additional Resources can be found below:
