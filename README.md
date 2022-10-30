@@ -65,7 +65,7 @@ Now you have a local website up and working, you can follow the instructions bel
 11. Enter ```git push -u origin main```
 
 12. Now you should be able to see your Resume hosted on Gibhub pages by entering _**username.github.io**_ into any web browser. You can check the status(active or not) of the website at the bottom right corner of the repository under the **Environments** tab.
-## Step 5 
+### Step 5 
 And you are done!!
 ## Demo
 
