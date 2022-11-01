@@ -26,9 +26,9 @@ following the guide provided on the website.
 After you had successfully created a resume, use Jekyll to convert it into a static website. Follow the steps below:
 1. Once you are all set up with Jekyll (you could use ```jekyll -v``` to check the version of jekyll), Open the **Command line Terminal** (i.e. Command Prompt for Windows) on your specific operating system.
 
-2. Enter ```cd directoryAddress``` to go to the chosen directory that you want to store your static website with.
+2. Enter ```cd <directoryAddress>``` to go to the chosen directory that you want to store your static website with.
 
-3. Enter ```jekyll new <websiteName>``` to create a new Jekyll website, replace _**<websiteName>**_ with the directory name you want.
+3. Enter ```jekyll new <websiteName>``` to create a new Jekyll website, replace _**websiteName**_ with the directory name you want.
 
 4. Open the directory you just created, find the file named "index.markdown", modify it so it contains the contents of your Resume, if you have experience with YAML, you can modify the front matter at the top section of the file to customize your resume.
 
@@ -42,7 +42,7 @@ After you had successfully created a resume, use Jekyll to convert it into a sta
 Now you have a local website up and working, you can follow the instructions below to connect your website to Github Pages. Using Github Pages ensures that you have version control of the website(it is all built in with Github) and a easy work around if you don't have experience with web development.
 1. Register for [Github](https://github.com/) if you do not have an Account.
 
-2. From the Github homepage, click **Create a new repository**, and create a public repository named _<username>.github.io_, replace **<username>** with your own. You can leave everything else as default.
+2. From the Github homepage, click **Create a new repository**, and create a public repository named _username.github.io_, replace **username** with your own. You can leave everything else as default.
 
 3. Click **uploading an existing file** to upload all files in the directory you created for your local website.
 
@@ -50,7 +50,7 @@ Now you have a local website up and working, you can follow the instructions bel
 
 5. Open GitBash command line and Enter ```cd <directoryName>``` to go to a directory you want to store your website.
 
-6. Enter ```git clone https://github.com/<username>/<username>.github.io``` to clone your repository to that directory, replacing **<username>** with your own.
+6. Enter ```git clone https://github.com/<username>/<username>.github.io``` to clone your repository to that directory, replacing **username** with your own.
 
 7. Enter ```cd <username>.github.io```.
 
