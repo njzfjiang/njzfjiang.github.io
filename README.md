@@ -11,16 +11,16 @@ procedures described in Andrew Etter's book [_Modern Technical Writing_](#more-r
 - Resume in markdown format
 ## Instructions
 ### Step 1: Create your own Resume
-Write your Resume using markdown. The result file should end in 
+Write your Resume using Markdown. The result file should end in 
 ".md" or ".markdown". 
 - Using Light weighted markup language prevents the writer from having to learn the details of XML, which might be a road block on creating content.
 - See the [More Resources](#more-resources) Section for tutorials on markdown.
 
 ### Step 2: Installing Jekyll
-Once your Resume is ready to go, Install [Jekyll](https://jekyllrb.com/docs/) 
+Once your resume is ready to go, Install [Jekyll](https://jekyllrb.com/docs/) 
 following the guide provided on the website.
 - Jekyll is an easy-to-use static site generator that we are using to host our resume.
-- Static websites is the way to go for Resumes and most technical writing if you want to get it online, because it is relatively simple to use(no back-end or regular maintainance required).
+- Static websites is the way to go for Resumes and most technical writing if you want to get it online, because it is relatively simple to use(no back-end or regular maintenance required).
 
 ### Step 3: Convert the Resume into a local website
 After you had successfully created a resume, use Jekyll to convert it into a static website. Follow the steps below:
@@ -32,21 +32,21 @@ After you had successfully created a resume, use Jekyll to convert it into a sta
 
 4. Open the directory you just created, find the file named "index.markdown", modify it so it contains the contents of your Resume, if you have experience with YAML, you can modify the front matter at the top section of the file to customize your resume.
 
-5. Find the file named "_config.yml", modify it so it contains your information. You can change the **theme** of the website to customize the layout and format of your website. See [More Resources](#more-resources) for explaination on jekyll themes.
+5. Find the file named "_config.yml", modify it so it contains your information. You can change the **theme** of the website to customize the layout and format of your website. See [More Resources](#more-resources) for explanation on jekyll themes.
 
 6. Open the **Command line Terminal**, enter ```cd directoryName``` to go to the directory that contains your modified files.
 
-7. Enter ```bundle exec jekyll serve```, and now your website is avaliable on a local server. You can open "index.html" in the "_site" directory to preview your website on any browser. 
+7. Enter ```bundle exec jekyll serve```, and now your website is available on a local server. You can open "index.html" in the "_site" directory to preview your website on any browser. 
 
 ### Step 4: Host your website on Github pages
-Now you have a local website up and working, you can follow the instructions below to connect your website to Github Pages. Using Github Pages ensures that you have version control of the website(it is all built in with Gibhub) and a easy work around if you don't have experience with web development.
+Now you have a local website up and working, you can follow the instructions below to connect your website to Github Pages. Using Github Pages ensures that you have version control of the website(it is all built in with Github) and a easy work around if you don't have experience with web development.
 1. Register for [Github](https://github.com/) if you do not have an Account.
 
 2. From the Github homepage, click **Create a new repository**, and create a public repository named _username.github.io_, replace **username** with your own. You can leave everything else as default.
 
 3. Click **uploading an existing file** to upload all files in the directory you created for your local website.
 
-4. Download [GitBash](https://git-scm.com/downloads) onto your computer.
+4. Install [GitBash](https://git-scm.com/downloads) onto your computer.
 
 5. Open GitBash command line and Enter ```cd directoryName``` to go to a directory you want to store your website.
 
@@ -58,7 +58,7 @@ Now you have a local website up and working, you can follow the instructions bel
 
 9. Enter ```git add --all```.
 
-10. Config E-mail and Username as instructed. This sets up your user information. Enter the following lines:
+10. Configure your E-mail and Username as instructed. This sets up your user information. Enter the following lines:
 - ```git config --global user.email your_Email@example.com```
 - ```git config --global user.name your_Name```
 
@@ -89,13 +89,13 @@ between different machines, whereas markdown will not.
 
 #### **Q: Why is my resume not showing up?**
 A: You can check if the "index.html" is in your **home repository**, and open it on a local server to check if
-it is up to date with your "index.markdowm". Also look at the **Environments** tab to see if the website is active, 
+it is up to date with your "index.markdown". Also look at the **Environments** tab to see if the website is active, 
 if it is not, you might want to check if you connect to Github Pages correctly. Another short tutorial could be found
 [here](https://pages.github.com/).
 ## Authors and Acknowledgement
 
 - Chen, Meixuan
-- Group Members: 
+Group Members(Peer editing): 
 - Loay, Yengin 
 - Garvey, Aiden
 - Used [readme.so](https://readme.so/editor) to create this README.
