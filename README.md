@@ -95,4 +95,7 @@ if it is not, you might want to check if you connect to Github Pages correctly. 
 ## Authors and Acknowledgement
 
 - Chen, Meixuan
+- Group Members: 
+- Loay, Yengin 
+- Garvey, Aiden
 - Used [readme.so](https://readme.so/editor) to create this README.
