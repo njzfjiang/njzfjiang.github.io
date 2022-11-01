@@ -28,13 +28,13 @@ After you had successfully created a resume, use Jekyll to convert it into a sta
 
 2. Enter ```cd directoryAddress``` to go to the chosen directory that you want to store your static website with.
 
-3. Enter ```jekyll new websiteName``` to create a new Jekyll website, replace _**websiteName**_ with the directory name you want.
+3. Enter ```jekyll new <websiteName>``` to create a new Jekyll website, replace _**<websiteName>**_ with the directory name you want.
 
 4. Open the directory you just created, find the file named "index.markdown", modify it so it contains the contents of your Resume, if you have experience with YAML, you can modify the front matter at the top section of the file to customize your resume.
 
 5. Find the file named "_config.yml", modify it so it contains your information. You can change the **theme** of the website to customize the layout and format of your website. See [More Resources](#more-resources) for explanation on jekyll themes.
 
-6. Open the **Command line Terminal**, enter ```cd directoryName``` to go to the directory that contains your modified files.
+6. Open the **Command line Terminal**, enter ```cd <directoryName>``` to go to the directory that contains your modified files.
 
 7. Enter ```bundle exec jekyll serve```, and now your website is available on a local server. You can open "index.html" in the "_site" directory to preview your website on any browser. 
 
@@ -42,29 +42,29 @@ After you had successfully created a resume, use Jekyll to convert it into a sta
 Now you have a local website up and working, you can follow the instructions below to connect your website to Github Pages. Using Github Pages ensures that you have version control of the website(it is all built in with Github) and a easy work around if you don't have experience with web development.
 1. Register for [Github](https://github.com/) if you do not have an Account.
 
-2. From the Github homepage, click **Create a new repository**, and create a public repository named _username.github.io_, replace **username** with your own. You can leave everything else as default.
+2. From the Github homepage, click **Create a new repository**, and create a public repository named _<username>.github.io_, replace **<username>** with your own. You can leave everything else as default.
 
 3. Click **uploading an existing file** to upload all files in the directory you created for your local website.
 
 4. Install [GitBash](https://git-scm.com/downloads) onto your computer.
 
-5. Open GitBash command line and Enter ```cd directoryName``` to go to a directory you want to store your website.
+5. Open GitBash command line and Enter ```cd <directoryName>``` to go to a directory you want to store your website.
 
-6. Enter ```git clone https://github.com/username/username.github.io``` to clone your repository to that directory, replacing **username** with your own.
+6. Enter ```git clone https://github.com/<username>/<username>.github.io``` to clone your repository to that directory, replacing **<username>** with your own.
 
-7. Enter ```cd username.github.io```.
+7. Enter ```cd <username>.github.io```.
 
 8. Upload "index.html" from the "_site" directory to your home repository on Github.
 
 9. Enter ```git add --all```.
 
 10. Configure your E-mail and Username as instructed. This sets up your user information. Enter the following lines:
-- ```git config --global user.email your_Email@example.com```
-- ```git config --global user.name your_Name```
+- ```git config --global user.email <your_Email@example.com>```
+- ```git config --global user.name <your_Name>```
 
 11. Enter ```git push -u origin main```
 
-12. Now you should be able to see your Resume hosted on Gibhub pages by entering _**username.github.io**_ into any web browser. You can check the status(active or not) of the website at the bottom right corner of the repository under the **Environments** tab.
+12. Now you should be able to see your Resume hosted on Gibhub pages by entering _**<username>.github.io**_ into any web browser. You can check the status(active or not) of the website at the bottom right corner of the repository under the **Environments** tab.
 ### Step 5 
 And you are done!!
 ## Demo
