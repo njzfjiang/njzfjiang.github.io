@@ -92,7 +92,7 @@ A: You can check if the "index.html" is in your **home repository**, and open it
 it is up to date with your "index.markdowm". Also look at the **Environments** tab to see if the website is active, 
 if it is not, you might want to check if you connect to Github Pages correctly. Another short tutorial could be found
 [here](https://pages.github.com/).
-## Authors
+## Authors and Acknowledgement
 
 - Chen, Meixuan
 - Used [readme.so](https://readme.so/editor) to create this README.
