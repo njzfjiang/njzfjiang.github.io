@@ -4,7 +4,7 @@
 This readme walks through a detailed procedure on how to host your 
 customized Resume on Github Pages. The process will involve the usage
 of markdown, markdown editor, Jerkyll and Github Pages; and also follows the
-procedures described in Andrew Etter's book [_Modern Technical Writing_](#more-resources).
+procedures described in Andrew Etter's book [_Modern Technical Writing_](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS).
 
 ## Prerequisites
 - A Github Account
